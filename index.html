@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Trunfo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Super Trunfo</h1>
+    </header>
+    
+    <main>
+        <div class="game-area">
+            <div class="card player-deck"></div>
+            <div class="card active-player-card"></div>
+            <div class="card machine-card"></div>
+            <div class="card machine-deck"></div>
+        </div>
+        
+        <div class="attributes-area" style="display: none;">
+            <button class="attr-btn" data-attr="attr1">Atributo 1</button>
+            <button class="attr-btn" data-attr="attr2">Atributo 2</button>
+            <button class="attr-btn" data-attr="attr3">Atributo 3</button>
+        </div>
+
+        <div class="scoreboard">
+            <span>Jogador: <span id="player-score">0</span></span>
+            <span>Máquina: <span id="machine-score">0</span></span>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
