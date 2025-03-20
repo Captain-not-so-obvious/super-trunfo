@@ -22,11 +22,34 @@ class Game {
     }
 
     initializeDeck() {
-        // Exemplo de cartas - você pode adicionar mais
         const cards = [
-            new Card("Carta 1", { attr1: 8, attr2: 6, attr3: 9 }),
-            new Card("Carta 2", { attr1: 7, attr2: 8, attr3: 5 }),
-            // Adicione mais cartas aqui
+            new Card("Hulk - Terra 1610", { 
+                Inteligência: 1, 
+                Força: 7, 
+                Velocidade: 3, 
+                Durabilidade: 6, 
+                Energia: 1, 
+                Combate: 2, 
+                img: '/img/Hulk Terra 1610.jpg'
+            }),
+            new Card("Krakoa", { 
+                Inteligência: 6, 
+                Força: 7, 
+                Velocidade: 7, 
+                Durabilidade: 7, 
+                Energia: 7, 
+                Combate: 4, 
+                img: '/img/Krakoa.jfif'
+            }),
+            new Card("Bazuca", { 
+                Inteligência: 1, 
+                Força: 3, 
+                Velocidade: 3, 
+                Durabilidade: 3, 
+                Energia: 1, 
+                Combate: 6, 
+                img: '/img/Bazuca.jpg'
+            }),
         ];
         this.deck = this.shuffleArray(cards);
     }
@@ -89,11 +112,17 @@ class Game {
 
     createCardHTML(card) {
         return `
-            <h3>${card.name}</h3>
-            <div class="attributes">
-                <p>Atributo 1: ${card.attributes.attr1}</p>
-                <p>Atributo 2: ${card.attributes.attr2}</p>
-                <p>Atributo 3: ${card.attributes.attr3}</p>
+            <div class="card">
+                <img src="${card.attributes.img}" alt="${card.name}" class="card-image">
+                <h3>${card.name}</h3>
+                <div class="attributes">
+                    <p>Inteligência: ${card.attributes.Inteligência}</p>
+                    <p>Força: ${card.attributes.Força}</p>
+                    <p>Velocidade: ${card.attributes.Velocidade}</p>
+                    <p>Durabilidade: ${card.attributes.Durabilidade}</p>
+                    <p>Energia: ${card.attributes.Energia}</p>
+                    <p>Combate: ${card.attributes.Combate}</p>
+                </div>
             </div>
         `;
     }
