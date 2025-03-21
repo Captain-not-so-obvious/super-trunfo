@@ -50,6 +50,123 @@ class Game {
                 Combate: 6, 
                 img: '/img/Bazuca.jpg'
             }),
+            new Card("Garota-Aranha", { 
+                Inteligência: 2, 
+                Força: 4, 
+                Velocidade: 3, 
+                Durabilidade: 5, 
+                Energia: 1, 
+                Combate: 4, 
+                img: '/img/Garota-Aranha.jfif'
+            }),
+            new Card("Arkon", { 
+                Inteligência: 2, 
+                Força: 6, 
+                Velocidade: 3, 
+                Durabilidade: 6, 
+                Energia: 1, 
+                Combate: 5, 
+                img: '/img/Arkon.jpg'
+            }),
+            new Card("Mulher-Aranha", { 
+                Inteligência: 2, 
+                Força: 4, 
+                Velocidade: 3, 
+                Durabilidade: 3, 
+                Energia: 1, 
+                Combate: 3, 
+                img: '/img/Mulher-Aranha.jpg'
+            }),
+            new Card("Coisa", { 
+                Inteligência: 2, 
+                Força: 6, 
+                Velocidade: 2, 
+                Durabilidade: 6, 
+                Energia: 1, 
+                Combate: 3, 
+                img: '/img/Coisa.jpg'
+            }),
+            new Card("Raio Negro", { 
+                Inteligência: 2, 
+                Força: 5, 
+                Velocidade: 3, 
+                Durabilidade: 3, 
+                Energia: 5, 
+                Combate: 4, 
+                img: '/img/Raio Negro.jpg'
+            }),
+            new Card("Hulk - Terra 616", {
+                Inteligência: 2,
+                Força: 7,
+                Velocidade: 3,
+                Durabilidade: 7,
+                Energia: 1,
+                Combate: 4,
+                img: '/img/Hulk Terra 616.jpg'
+            }),
+            new Card("Fanático", {
+                Inteligência: 2,
+                Força: 7,
+                Velocidade: 2,
+                Durabilidade: 7,
+                Energia: 1,
+                Combate: 4,
+                img: '/img/Fanatico.jfif'
+            }),
+            new Card("Cristalys", {
+                Inteligência: 2,
+                Força: 2,
+                Velocidade: 2,
+                Durabilidade: 2,
+                Energia: 4,
+                Combate: 3,
+                img: '/img/Cristalys.jfif'
+            }),
+            new Card("Capitã Britânia", {
+                Inteligência: 2,
+                Força: 6,
+                Velocidade: 4,
+                Durabilidade: 6,
+                Energia: 5,
+                Combate: 4,
+                img: '/img/Capitã Britânia.jfif'
+            }),
+            new Card("Blade", {
+                Inteligência: 2,
+                Força: 4,
+                Velocidade: 2,
+                Durabilidade: 4,
+                Energia: 1,
+                Combate: 5,
+                img: '/img/Blade.jpg'
+            }),
+            new Card("Trovejante", {
+                Inteligência: 2,
+                Força: 5,
+                Velocidade: 5,
+                Durabilidade: 6,
+                Energia: 5,
+                Combate: 3,
+                img: '/img/Trovejante.jfif'
+            }),
+            new Card("Agente Anti-Venom", {
+                Inteligência: 2,
+                Força: 4,
+                Velocidade: 2,
+                Durabilidade: 6,
+                Energia: 1,
+                Combate: 3,
+                img: '/img/Anti-Venom.jfif'
+            }),
+            new Card("Gata Negra", {
+                Inteligência: 2,
+                Força: 2,
+                Velocidade: 2,
+                Durabilidade: 2,
+                Energia: 1,
+                Combate: 3,
+                img: '/img/Gata Negra.jpg'
+            }),
         ];
         this.deck = this.shuffleArray(cards);
     }
