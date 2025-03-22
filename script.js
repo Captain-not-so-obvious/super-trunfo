@@ -167,6 +167,88 @@ class Game {
                 Combate: 3,
                 img: '/img/Gata Negra.jpg'
             }),
+            new Card("Fóton", {
+                Inteligência: 2,
+                Força: 5,
+                Velocidade: 7,
+                Durabilidade: 7,
+                Energia: 6,
+                Combate: 3,
+                img: '/img/Fóton.png'
+            }
+            ),
+            new Card("Wolverine", {
+                Inteligência: 2,
+                Força: 4,
+                Velocidade: 2,
+                Durabilidade: 3,
+                Energia: 2,
+                Combate: 7,
+                img: '/img/Wolverine.png'
+            }),
+            new Card("Motoqueiro Fantasma", {
+                Inteligência: 2,
+                Força: 4,
+                Velocidade: 3,
+                Durabilidade: 5,
+                Energia: 4,
+                Combate: 2,
+                img: '/img/Motoqueiro Fantasma.jpg'
+            }),
+            new Card("Tocha Humana", {
+                Inteligência: 2,
+                Força: 2,
+                Velocidade: 5,
+                Durabilidade: 2,
+                Energia: 5,
+                Combate: 3,
+                img: '/img/Tocha Humana.jpg'
+            }),
+            new Card("Agente Americano", {
+                Inteligência: 2,
+                Força: 4,
+                Velocidade: 3,
+                Durabilidade: 3,
+                Energia: 2,
+                Combate: 4,
+                img: '/img/Agente Americano.jpg'
+            }),
+            new Card("Esmagador Hogan", {
+                Inteligência: 2,
+                Força: 3,
+                Velocidade: 2,
+                Durabilidade: 3,
+                Energia: 1,
+                Combate: 4,
+                img: '/img/Esmagador Hogan.jpg'
+            }),
+            new Card("Miss Marvel - Kamala Khan", {
+                Inteligência: 2,
+                Força: 4,
+                Velocidade: 3,
+                Durabilidade: 4,
+                Energia: 1,
+                Combate: 2,
+                img: '/img/Miss Marvel.jpg'
+            }),
+            new Card("Mestre Tecelão", {
+                Inteligência: 4,
+                Força: 4,
+                Velocidade: 7,
+                Durabilidade: 7,
+                Energia: 5,
+                Combate: 4,
+                img: '/img/Mestre Tecelão.jpg'
+            }),
+            new Card("Homem de Ferro", {
+                Inteligência: 6,
+                Força: 6,
+                Velocidade: 5,
+                Durabilidade: 6,
+                Energia: 6,
+                Combate: 6,
+                img: '/img/Homem de Ferro.jpg'
+            }),
         ];
         this.deck = this.shuffleArray(cards);
     }
