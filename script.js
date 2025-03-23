@@ -240,14 +240,266 @@ class Game {
                 Combate: 4,
                 img: '/img/Mestre Tecelão.jpg'
             }),
-            new Card("Homem de Ferro", {
-                Inteligência: 6,
+            new Card("Wolverine X-23", {
+                Inteligência: 2,
+                Força: 2,
+                Velocidade: 3,
+                Durabilidade: 4,
+                Energia: 1,
+                Combate: 6,
+                img: '/imgX-23.jpg'
+            }),
+            new Card("Bispo", {
+                Inteligência: 2,
+                Força: 2,
+                Velocidade: 2,
+                Durabilidade: 3,
+                Energia: 4,
+                Combate: 4,
+                img: '/img/Bishop.jfif'
+            }),
+            new Card("Escorpião", {
+                Inteligência: 2,
+                Força: 5,
+                Velocidade: 3,
+                Durabilidade: 5,
+                Energia: 1,
+                Combate: 2,
+                img: '/img/Escorpião.jfif'
+            }),
+            new Card("Cavaleiro da Lua", {
+                Inteligência: 2,
+                Força: 3,
+                Velocidade: 2,
+                Durabilidade: 3,
+                Energia: 1,
+                Combate: 4,
+                img: '/img/Cavaleiro da Lua.jfif'
+            }),
+            new Card("Loteria", {
+                Inteligência: 2,
+                Força: 2,
+                Velocidade: 2,
+                Durabilidade: 2,
+                Energia: 1,
+                Combate: 2,
+                img: '/img/Loteria.jpg'
+            }),
+            new Card("Electro", {
+                Inteligência: 2,
+                Força: 2,
+                Velocidade: 2,
+                Durabilidade: 3,
+                Energia: 5,
+                Combate: 2,
+                img: '/img/Electro.jpg'
+            }),
+            new Card("Aranha Escarlate", {
+                Inteligência: 2,
+                Força: 3,
+                Velocidade: 2,
+                Durabilidade: 5,
+                Energia: 4,
+                Combate: 4,
+                img: '/img/Aranha Escarlate.jpg'
+            }),
+            new Card("Homem-Aranha Miles Morales", {
+                Inteligência: 2,
+                Força: 4,
+                Velocidade: 3,
+                Durabilidade: 3,
+                Energia: 2,
+                Combate: 3,
+                img: '/img/Homem-Aranha Miles Morales.png'
+            }),
+            new Card("Namor", {
+                Inteligência: 2,
+                Força: 6,
+                Velocidade: 3,
+                Durabilidade: 6,
+                Energia: 2,
+                Combate: 4,
+                img: '/img/Namor.jpg'
+            }),
+            new Card("Tempestade", {
+                Inteligência: 2,
+                Força: 2,
+                Velocidade: 3,
+                Durabilidade: 2,
+                Energia: 5,
+                Combate: 4,
+                img: '/img/Tempestade.jpg'
+            }),
+            new Card("Homem Molecular", {
+                Inteligência: 2,
+                Força: 1,
+                Velocidade: 3,
+                Durabilidade: 2,
+                Energia: 7,
+                Combate: 1,
+                img: '/img/Homem Molecular.jpg'
+            }),
+            new Card("Ragnarok", {
+                Inteligência: 2,
+                Força: 6,
+                Velocidade: 3,
+                Durabilidade: 6,
+                Energia: 5,
+                Combate: 4,
+                img: '/img/Ragnarok.jpg'
+            }),
+            new Card("Gambit", {
+                Inteligência: 2,
+                Força: 2,
+                Velocidade: 2,
+                Durabilidade: 2,
+                Energia: 2,
+                Combate: 4,
+                img: '/img/Gambit.png'
+            }),
+            new Card("Nova - Richard Rider", {
+                Inteligência: 2,
+                Força: 7,
+                Velocidade: 7,
+                Durabilidade: 7,
+                Energia: 6,
+                Combate: 4,
+                img: '/img/Nova Richard Rider.jpg'
+            }),
+            new Card("Espiral", {
+                Inteligência: 2,
+                Força: 2,
+                Velocidade: 2,
+                Durabilidade: 3,
+                Energia: 6,
+                Combate: 4,
+                img: '/img/Espiral.jfif'
+            }),
+            new Card("Homem de Gelo", {
+                Inteligência: 2,
+                Força: 3,
+                Velocidade: 3,
+                Durabilidade: 4,
+                Energia: 5,
+                Combate: 4,
+                img: '/img/Homem de Gelo.jpg'
+            }),
+            new Card("Motorista Fantasma", {
+                Inteligência: 2,
+                Força: 4,
+                Velocidade: 3,
+                Durabilidade: 5,
+                Energia: 3,
+                Combate: 4,
+                img: '/img/Motorista Fantasma.jpg'
+            }),
+            new Card("Nova - Samuel Alexander", {
+                Inteligência: 2,
                 Força: 6,
                 Velocidade: 5,
                 Durabilidade: 6,
                 Energia: 6,
+                Combate: 3,
+                img: '/img/Nova Samuel Alexander.jpg'
+            }),
+            new Card("Capitão América - Samuel Wilson", {
+                Inteligência: 2,
+                Força: 2,
+                Velocidade: 3,
+                Durabilidade: 2,
+                Energia: 1,
+                Combate: 4,
+                img: '/img/Capitão América Samuel Wilson.jpg'
+            }),
+            new Card("Capitã Universo", {
+                Inteligência: 2,
+                Força: 4,
+                Velocidade: 5,
+                Durabilidade: 6,
+                Energia: 7,
+                Combate: 1,
+                img: '/img/Capitã Universo.jfif'
+            }),
+            new Card("Adaga", {
+                Inteligência: 2,
+                Força: 2,
+                Velocidade: 2,
+                Durabilidade: 2,
+                Energia: 5,
+                Combate: 4,
+                img: '/img/Adaga.jpg'
+            }),
+            new Card("Thor", {
+                Inteligência: 2,
+                Força: 7,
+                Velocidade: 7,
+                Durabilidade: 6,
+                Energia: 6,
+                Combate: 4,
+                img: '/img/Thor.jpg'
+            }),
+            new Card("Thundra", {
+                Inteligência: 2,
+                Força: 5,
+                Velocidade: 2,
+                Durabilidade: 6,
+                Energia: 1,
+                Combate: 4,
+                img: '/img/Thundra.jpg'
+            }),
+            new Card("Manto", {
+                Inteligência: 2,
+                Força: 3,
+                Velocidade: 2,
+                Durabilidade: 5,
+                Energia: 3,
+                Combate: 2,
+                img: '/img/Manto.jfif'
+            }),
+            new Card("Dentes-de-Sabre", {
+                Inteligência: 2,
+                Força: 3,
+                Velocidade: 2,
+                Durabilidade: 4,
+                Energia: 1,
                 Combate: 6,
-                img: '/img/Homem de Ferro.jpg'
+                img: '/img/Dentes-de-Sabre.jpg'
+            }),
+            new Card("Deadpool", {
+                Inteligência: 2,
+                Força: 4,
+                Velocidade: 2,
+                Durabilidade: 4,
+                Energia: 1,
+                Combate: 6,
+                img: '/img/Deadpool.jpg'
+            }),
+            new Card("Homem-Areia", {
+                Inteligência: 2,
+                Força: 6,
+                Velocidade: 2,
+                Durabilidade: 6,
+                Energia: 1,
+                Combate: 4,
+                img: '/img/Homem-Areia.jfif'
+            }),
+            new Card("Homem Púrpura", {
+                Inteligência: 2,
+                Força: 2,
+                Velocidade: 2,
+                Durabilidade: 2,
+                Energia: 3,
+                Combate: 1,
+                img: '/img/Homem Púrpura.jpg'
+            }),
+            new Card("Hyperion", {
+                Inteligência: 2,
+                Força: 6,
+                Velocidade: 5,
+                Durabilidade: 6,
+                Energia: 5,
+                Combate: 3,
+                img: '/img/Hyperion.jfif'
             }),
         ];
         this.deck = this.shuffleArray(cards);
