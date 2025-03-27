@@ -22,6 +22,7 @@ class Game {
     }
 
     initializeDeck() {
+        // Inteligência 1
         const cards = [
             new Card("Hulk - Terra 1610", { 
                 Inteligência: 1, 
@@ -50,6 +51,7 @@ class Game {
                 Combate: 6, 
                 img: '/img/Bazuca.jpg'
             }),
+            // Inteligência 2
             new Card("Garota-Aranha", { 
                 Inteligência: 2, 
                 Força: 4, 
@@ -501,6 +503,134 @@ class Game {
                 Combate: 3,
                 img: '/img/Hyperion.jfif'
             }),
+            // Inteligência 3
+            new Card("Angela", {
+                Inteligência: 3,
+                Força: 5,
+                Velocidade: 3,
+                Durabilidade: 3,
+                Energia: 1,
+                Combate: 6,
+                img: '/img/Angela.jpg'
+            }),
+            new Card("Destrutor", {
+                Inteligência: 3,
+                Força: 2,
+                Velocidade: 2,
+                Durabilidade: 3,
+                Energia: 5,
+                Combate: 3,
+                img: '/img/Destrutor.jfif'
+            }),
+            new Card("O Coisa", {
+                Inteligência: 3,
+                Força: 6,
+                Velocidade: 2,
+                Durabilidade: 6,
+                Energia: 1,
+                Combate: 5,
+                img: '/img/Coisa.jpg'
+            }),
+            new Card("Capitã Marvel", {
+                Inteligência: 3,
+                Força: 5,
+                Velocidade: 5,
+                Durabilidade: 6,
+                Energia: 5,
+                Combate: 4,
+                img: '/img/Capitã Marvel.jpg'
+            }),
+            new Card("Teia de Seda", {
+                Inteligência: 3,
+                Força: 4,
+                Velocidade: 3,
+                Durabilidade: 3,
+                Energia: 1,
+                Combate: 3,
+                img: '/img/Teia de Seda.jpg'
+            }),
+            new Card("Gavião Arqueiro", {
+                Inteligência: 3,
+                Força: 2,
+                Velocidade: 2,
+                Durabilidade: 2,
+                Energia: 1,
+                Combate: 6,
+                img: '/img/Gavião Arqueiro.jpg'
+            }),
+            new Card("Punho de Ferro", {
+                Inteligência: 3,
+                Força: 2,
+                Velocidade: 2,
+                Durabilidade: 3,
+                Energia: 3,
+                Combate: 6,
+                img: '/img/Punho de Ferro.jpg'
+            }),
+            new Card("Garota Esquilo", {
+                Inteligência: 3,
+                Força: 4,
+                Velocidade: 3,
+                Durabilidade: 3,
+                Energia: 1,
+                Combate: 4,
+                img: '/img/Garota Esquilo.jpg'
+            }),
+            new Card("Venom", {
+                Inteligência: 3,
+                Força: 4,
+                Velocidade: 2,
+                Durabilidade: 6,
+                Energia: 1,
+                Combate: 4,
+                img: '/img/Venom.png'
+            }),
+            new Card("Elektra", {
+                Inteligência: 3,
+                Força: 2,
+                Velocidade: 2,
+                Durabilidade: 3,
+                Energia: 1,
+                Combate: 6,
+                img: '/img/Elektra.jpg'
+            }),
+            new Card("Gwen-Aranha ( Aranha-Fantasma )", {
+                Inteligência: 3,
+                Força: 4,
+                Velocidade: 3,
+                Durabilidade: 3,
+                Energia: 1,
+                Combate: 3,
+                img: '/img/Gwen-Aranha.jpeg'
+            }),
+            new Card("Shocker", {
+                Inteligência: 3,
+                Força: 2,
+                Velocidade: 2,
+                Durabilidade: 5,
+                Energia: 5,
+                Combate: 2,
+                img: '/img/Shocker.jpg'
+            }),
+            new Card("Wolverine - Terra 1610", {
+                Inteligência: 3,
+                Força: 4,
+                Velocidade: 3,
+                Durabilidade: 4,
+                Energia: 1,
+                Combate: 6,
+                img: '/img/Wolverine - Terra 1610.jfif'
+            }),
+            new Card("Máquina de Combate", {
+                Inteligência: 3,
+                Força: 6,
+                Velocidade: 5,
+                Durabilidade: 6,
+                Energia: 6,
+                Combate: 4,
+                img: '/img/Maquina de Combate.jpg'
+            }),
+            
         ];
         this.deck = this.shuffleArray(cards);
     }
