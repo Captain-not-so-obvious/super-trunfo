@@ -630,7 +630,195 @@ class Game {
                 Combate: 4,
                 img: '/img/Maquina de Combate.jpg'
             }),
-            
+            new Card("Jane Foster - Poderosa Thor", {
+                Inteligência: 3,
+                Força: 7,
+                Velocidade: 4,
+                Durabilidade: 6,
+                Energia: 6,
+                Combate: 3,
+                img: '/img/Poderosa Thor.jpg'
+            }),
+            new Card("Mulher-Aranha", {
+                Inteligência: 3,
+                Força: 5,
+                Velocidade: 3,
+                Durabilidade: 4,
+                Energia: 5,
+                Combate: 4,
+                img: '/img/Mulher-Aranha.jpg'
+            }),
+            new Card("Noturno", {
+                Inteligência: 3,
+                Força: 2,
+                Velocidade: 3,
+                Durabilidade: 2,
+                Energia: 1,
+                Combate: 3,
+                img: '/img/Noturno.jpg'
+            }),
+            new Card("Falcão Noturno", {
+                Inteligência: 3,
+                Força: 4,
+                Velocidade: 3,
+                Durabilidade: 3,
+                Energia: 4,
+                Combate: 4,
+                img: '/img/Falcão Noturno.jpg'
+            }),
+            new Card("Luke Cage", {
+                Inteligência: 3,
+                Força: 4,
+                Velocidade: 2,
+                Durabilidade: 5,
+                Energia: 1,
+                Combate: 4,
+                img: '/img/Luke Cage.jfif'
+            }),
+            new Card("Capitão Marvel", {
+                Inteligência: 3,
+                Força: 4,
+                Velocidade: 7,
+                Durabilidade: 3,
+                Energia: 5,
+                Combate: 4,
+                img: '/img/Capitão Marvel.jpg'
+            }),
+            new Card("Espectro", {
+                Inteligência: 3,
+                Força: 2,
+                Velocidade: 6,
+                Durabilidade: 4,
+                Energia: 6,
+                Combate: 4,
+                img: '/img/Espectro.jfif'
+            }),
+            new Card("Morlun", {
+                Inteligência: 3,
+                Força: 4,
+                Velocidade: 3,
+                Durabilidade: 3,
+                Energia: 1,
+                Combate: 4,
+                img: '/img/Morlun.jfif'
+            }),
+            new Card("Nick Fury", {
+                Inteligência: 3,
+                Força: 2,
+                Velocidade: 2,
+                Durabilidade: 2,
+                Energia: 1,
+                Combate: 6,
+                img: '/img/Nick Fury.jfif'
+            }),
+            new Card("Surfista Prateado", {
+                Inteligência: 3,
+                Força: 7,
+                Velocidade: 7,
+                Durabilidade: 6,
+                Energia: 7,
+                Combate: 2,
+                img: '/img/Surfista Prateado.jfif'
+            }),
+            new Card("Mercúrio", {
+                Inteligência: 3,
+                Força: 4,
+                Velocidade: 5,
+                Durabilidade: 3,
+                Energia: 1,
+                Combate: 4,
+                img: '/img/Mercúrio.jfif'
+            }),
+            new Card("Rocket Racoon", {
+                Inteligência: 3,
+                Força: 2,
+                Velocidade: 2,
+                Durabilidade: 2,
+                Energia: 1,
+                Combate: 4,
+                img: '/img/Rocket Racoon.jfif'
+            }),
+            new Card("Ciclope", {
+                Inteligência: 3,
+                Força: 2,
+                Velocidade: 2,
+                Durabilidade: 2,
+                Energia: 5,
+                Combate: 4,
+                img: '/img/Ciclope.jpg'
+            }),
+            new Card("Kraven", {
+                Inteligência: 3,
+                Força: 4,
+                Velocidade: 3,
+                Durabilidade: 3,
+                Energia: 1,
+                Combate: 6,
+                img: '/img/Kraven.jfif'
+            }),
+            new Card("Shang-Chi", {
+                Inteligência: 3,
+                Força: 2,
+                Velocidade: 2,
+                Durabilidade: 2,
+                Energia: 1,
+                Combate: 7,
+                img: '/img/Shang-Chi.jpg'
+            }),
+            new Card("Capitão América", {
+                Inteligência: 3,
+                Força: 3,
+                Velocidade: 2,
+                Durabilidade: 3,
+                Energia: 1,
+                Combate: 6,
+                img: '/img/Capitão América.jpg'
+            }),
+            new Card("Mulher Invisível", {
+                Inteligência: 3,
+                Força: 2,
+                Velocidade: 3,
+                Durabilidade: 6,
+                Energia: 5,
+                Combate: 3,
+                img: '/img/Mulher Invisível.jfif'
+            }),
+            new Card("Hulk Vermelho", {
+                Inteligência: 3,
+                Força: 7,
+                Velocidade: 3,
+                Durabilidade: 6,
+                Energia: 2,
+                Combate: 4,
+                img: '/img/Hulk Vermelho.jfif'
+            }),
+            new Card("Feiticeira Escarlate", {
+                Inteligência: 3,
+                Força: 2,
+                Velocidade: 2,
+                Durabilidade: 2,
+                Energia: 6,
+                Combate: 3,
+                img: '/img/Feiticeira Escarlate.jfif'
+            }),
+            new Card("Arcanjo", {
+                Inteligência: 3,
+                Força: 2,
+                Velocidade: 3,
+                Durabilidade: 2,
+                Energia: 1,
+                Combate: 4,
+                img: '/img/Arcanjo.jfif'
+            }),
+            new Card("Rei Do Crime", {
+                Inteligência: 3,
+                Força: 3,
+                Velocidade: 2,
+                Durabilidade: 2,
+                Energia: 1,
+                Combate: 5,
+                img: '/img/Rei Do Crime.jfif'
+            }),
         ];
         this.deck = this.shuffleArray(cards);
     }
