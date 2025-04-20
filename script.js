@@ -297,11 +297,11 @@ class Game {
                 img: '/img/Electro.jpg'
             }),
             new Card("Aranha Escarlate", {
-                Inteligência: 2,
-                Força: 3,
-                Velocidade: 2,
-                Durabilidade: 5,
-                Energia: 4,
+                Inteligência: 4,
+                Força: 4,
+                Velocidade: 3,
+                Durabilidade: 3,
+                Energia: 2,
                 Combate: 4,
                 img: '/img/Aranha Escarlate.jpg'
             }),
@@ -818,6 +818,169 @@ class Game {
                 Energia: 1,
                 Combate: 5,
                 img: '/img/Rei Do Crime.jfif'
+            }),
+            // Personagens inteligência 4
+            new Card("Rainha-Aranha", {
+                Inteligência: 4,
+                Força: 4,
+                Velocidade: 2,
+                Durabilidade: 2,
+                Energia: 5,
+                Combate: 4,
+                img: '/img/Rainha-Aranha.jpg'
+            }),
+            new Card("Le Peregrino", {
+                Inteligência: 4,
+                Força: 2,
+                Velocidade: 3,
+                Durabilidade: 2,
+                Energia: 1,
+                Combate: 5,
+                img: '/img/Le Peregrino.jpg'
+            }),
+            new Card("Tiwaz", {
+                Inteligência: 4,
+                Força: 6,
+                Velocidade: 3,
+                Durabilidade: 6,
+                Energia: 6,
+                Combate: 4,
+                img: '/img/Tiwaz.jfif'
+            }),
+            new Card("Tremor", {
+                Inteligência: 4,
+                Força: 2,
+                Velocidade: 2,
+                Durabilidade: 2,
+                Energia: 5,
+                Combate: 6,
+                img: '/img/Tremor.jpg'
+            }),
+            new Card("Rainha Branca - Emma Frost", {
+                Inteligência: 4,
+                Força: 4,
+                Velocidade: 2,
+                Durabilidade: 5,
+                Energia: 5,
+                Combate: 3,
+                img: '/img/Rainha Branca.jfif'
+            }),
+            new Card("Forge", {
+                Inteligência: 4,
+                Força: 2,
+                Velocidade: 2,
+                Durabilidade: 2,
+                Energia: 1,
+                Combate: 4,
+                img: '/img/Forge.png'
+            }),
+            new Card("Homem-Aranha 2099 - Miguel O'Hara", {
+                Inteligência: 4,
+                Força: 4,
+                Velocidade: 4,
+                Durabilidade: 3,
+                Energia: 2,
+                Combate: 2,
+                img: '/img/Homem-Aranha 2099.jpg'
+            }),
+            new Card("Chacal", {
+                Inteligência: 4,
+                Força: 4,
+                Velocidade: 2,
+                Durabilidade: 3,
+                Energia: 1,
+                Combate: 3,
+                img: '/img/Chacal.jfif'
+            }),
+            new Card("Kang, O Conquistador", {
+                Inteligência: 4,
+                Força: 3,
+                Velocidade: 2,
+                Durabilidade: 3,
+                Energia: 1,
+                Combate: 4,
+                img: '/img/Kang.jpg'
+            }),
+            new Card("Duende Verde", {
+                Inteligência: 4,
+                Força: 4,
+                Velocidade: 3,
+                Durabilidade: 4,
+                Energia: 3,
+                Combate: 3,
+                img: '/img/Duende Verde.jpg'
+            }),
+            new Card("Homem-Aranha", {
+                Inteligência: 4,
+                Força: 4,
+                Velocidade: 3,
+                Durabilidade: 3,
+                Energia: 1,
+                Combate: 4,
+                img: '/img/Homem-Aranha.png'
+            }),
+            new Card("Senhor das Estrelas", {
+                Inteligência: 4,
+                Força: 3,
+                Velocidade: 2,
+                Durabilidade: 3,
+                Energia: 1,
+                Combate: 4,
+                img: '/img/Senhor das Estrelas.jpg'
+            }),
+            new Card("Mística", {
+                Inteligência: 4,
+                Força: 2,
+                Velocidade: 2,
+                Durabilidade: 4,
+                Energia: 1,
+                Combate: 5,
+                img: '/img/Mistica.jfif'
+            }),
+            new Card("Homem-Formiga - Scott Lang", {
+                Inteligência: 4,
+                Força: 5,
+                Velocidade: 3,
+                Durabilidade: 5,
+                Energia: 3,
+                Combate: 4,
+                img: '/img/Homem-Formiga.jpg'
+            }),
+            new Card("Doutor Estranho", {
+                Inteligência: 4,
+                Força: 2,
+                Velocidade: 2,
+                Durabilidade: 2,
+                Energia: 6,
+                Combate: 6,
+                img: '/img/Doutor Estranho.jpg'
+            }),
+            new Card("Ultron", {
+                Inteligência: 4,
+                Força: 6,
+                Velocidade: 3,
+                Durabilidade: 7,
+                Energia: 6,
+                Combate: 4,
+                img: '/img/Ultron.png'
+            }),
+            new Card("Barão Von Strucker", {
+                Inteligência: 4,
+                Força: 3,
+                Velocidade: 2,
+                Durabilidade: 4,
+                Energia: 3,
+                Combate: 5,
+                img: '/img/Barão Von Strucker.jpg'
+            }),
+            new Card("Zeus", {
+                Inteligência: 4,
+                Força: 6,
+                Velocidade: 3,
+                Durabilidade: 7,
+                Energia: 6,
+                Combate: 4,
+                img: '/img/Zeus.jpg'
             }),
         ];
         this.deck = this.shuffleArray(cards);
