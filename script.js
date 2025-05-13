@@ -982,6 +982,50 @@ class Game {
                 Combate: 4,
                 img: '/img/Zeus.jpg'
             }),
+            // Inteligência 5
+            new Card("Abutre", {
+                Inteligência: 5,
+                Força: 3,
+                Velocidade: 3,
+                Durabilidade: 5,
+                Energia: 1,
+                Combate: 2,
+                img: '/img/Abutre.jfif'
+            }),new Card("Professor X", {
+                Inteligência: 5,
+                Força: 2,
+                Velocidade: 2,
+                Durabilidade: 2,
+                Energia: 5,
+                Combate: 3,
+                img: '/img/Professor X.jpg'
+            }),new Card("Lagarto", {
+                Inteligência: 5,
+                Força: 4,
+                Velocidade: 3,
+                Durabilidade: 5,
+                Energia: 1,
+                Combate: 2,
+                img: '/img/Lagarto.jpg'
+            }),
+            new Card("Caveira Vermelha", {
+                Inteligência: 5,
+                Força: 2,
+                Velocidade: 2,
+                Durabilidade: 2,
+                Energia: 1,
+                Combate: 6,
+                img: '/img/Caveira Vermelha.jfif'
+            }),
+            new Card("Magneto", {
+                Inteligência: 5,
+                Força: 2,
+                Velocidade: 5,
+                Durabilidade: 2,
+                Energia: 6,
+                Combate: 4,
+                img: '/img/Magneto.jfif'
+            }),
         ];
         this.deck = this.shuffleArray(cards);
     }
